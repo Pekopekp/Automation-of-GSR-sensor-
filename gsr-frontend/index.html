@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSR Monitoring Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>GSR Monitoring</h1>
+        <p>Real-time physiological stress measurement</p>
+    </div>
+
+    <div class="container">
+
+        <div class="card">
+            <button id="startBtn" class="btn primary">Start Recording</button>
+
+            <div class="graph-box">
+                <canvas id="gsrChart"></canvas>
+            </div>
+
+            <button id="stopBtn" class="btn danger">Stop Recording</button>
+
+            <button id="resultsBtn" class="btn disabled next-btn" disabled>
+                View Results →
+            </button>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

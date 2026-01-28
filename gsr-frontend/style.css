@@ -1,0 +1,116 @@
+/* ---------- GLOBAL ---------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+/* ---------- HEADER ---------- */
+
+.header {
+    padding: 50px 20px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.header h1 {
+    font-size: 42px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.header p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* ---------- CONTAINER ---------- */
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* ---------- CARD ---------- */
+
+.card {
+    width: 80%;
+    max-width: 900px;
+    padding: 30px;
+    border-radius: 25px;
+
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(12px);
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- BUTTONS ---------- */
+
+.btn {
+    padding: 14px 40px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    margin: 15px 0;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.25s ease;
+}
+
+/* Primary Button */
+.primary {
+    background: linear-gradient(135deg, #4b7bec, #3867d6);
+    color: white;
+}
+
+.primary:hover {
+    background: linear-gradient(135deg, #3867d6, #274b9f);
+    transform: translateY(-2px);
+}
+
+/* Danger Button */
+.danger {
+    background: linear-gradient(135deg, #ff4e50, #ff2a2a);
+    color: white;
+}
+
+.danger:hover {
+    background: linear-gradient(135deg, #ff2a2a, #d81b1b);
+    transform: translateY(-2px);
+}
+
+/* Disabled Button */
+.disabled {
+    background: #bfbfbf !important;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* Next button styling */
+.next-btn {
+    width: 220px;
+}
+
+/* ---------- GRAPH BOX ---------- */
+
+.graph-box {
+    width: 100%;
+    height: 400px;
+    margin: 30px auto;
+    padding: 20px;
+
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 18px rgba(0,0,0,0.05);
+}
